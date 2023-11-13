@@ -1,7 +1,11 @@
 .choresText {
-   color: black;
+   color: rgb(25, 25, 237);
+   font-size: 12px;
+   font-style: italic;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .choresHeading {
-   color: black;
+   color: rgb(25, 25, 237);
+   text-decoration: underline;
 }
