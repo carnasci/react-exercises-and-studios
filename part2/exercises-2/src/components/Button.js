@@ -2,8 +2,12 @@ import './styles.css';
 
 function Button() {
 
+   onLearnMore = () => {
+      return alert("High Tide!");
+   }
+
    return ( 
-         <button>
+         <button onClick={onLearnMore}>
             Learn More
          </button>
    );
