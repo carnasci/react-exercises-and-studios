@@ -1,17 +1,20 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
+     "name": "Classic New York Cheesecake",
+     "author": "Jenn Segal",
+     "description": "With this recipe, a creamy, gorgeous, crack-free New York-style cheesecake is totally doable, even for beginners!",
      "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+     "recipeImage": "https://i0.wp.com/www.onceuponachef.com/images/2017/12/cheesecake.jpg?resize=768%2C892&ssl=1",
+     "authorImage": "https://i0.wp.com/www.onceuponachef.com/images/2019/08/jenn-kitchen-3.jpg?resize=768%2C521&ssl=1",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
+       "graham cracker crust",
+       "cream cheese",
        "flour",
-       "heavy cream",
-       "milk"
+       "eggs",
+       "sugar",
+       "sour cream",
+       "vanilla",
+       "hint of lemon"
      ]
    }
  ]

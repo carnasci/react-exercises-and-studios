@@ -1,7 +1,15 @@
-import recipedata from "./recipe.json";
+import recipe from "./recipe.json"
 
 function RecipeName() {
-  return recipedata;
+  let recipeName = recipe.map((data) => {
+  return <h1 key={data.name}>{data.name}</h1>;
+  });
+
+  return (
+    <>
+      {recipeName}
+    </>
+  )
 }
 
 export default RecipeName;
