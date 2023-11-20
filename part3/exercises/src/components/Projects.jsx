@@ -5,7 +5,7 @@ export default function MyProjects() {
    const [index, setIndex] = useState(0);
 
   function handleClick() {
-   if (index < data.projects.length-1)
+   if (index < data.placesCamped.length-1)
    {
       setIndex(index + 1);
    }
@@ -15,17 +15,18 @@ export default function MyProjects() {
    }
   }
 
-  let projects = data.projects;
-  let project = projects[index];
+  let projects = data.placesCamped;
+  let project = placesCamped[index];
 
   return (
     <div>
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{project.siteName} in {project.location}
       </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <img src={project.image} alt={project.siteName} />
+      <h2>Activity accomplished: {project.activity}</h2>
     </div>
   );
 }
